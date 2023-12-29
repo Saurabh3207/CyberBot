@@ -1,0 +1,150 @@
+{
+    "intents": [
+      {
+        "tag": "incident_response",
+        "patterns": [
+            "How does an incident response plan help in preventing data breaches?"
+        ],
+        "responses": [
+            "By outlining procedures to detect and respond to security incidents promptly, an incident response plan helps prevent data breaches from escalating and minimizes their impact on sensitive information."
+        ]
+    },
+    
+      {
+        "tag": "cybersecurity_job_roles",
+        "patterns": [
+          "What are the job opportunities in cybersecurity?",
+          "Tell me about careers in cybersecurity",
+          "What jobs can I get in cybersecurity?"
+        ],
+        "responses": [
+          "There are several job roles in the field of cybersecurity, including but not limited to: 1. Cybersecurity Analyst, 2. Cybersecurity Engineer, 3. Cybersecurity Consultant, 4. Cybersecurity Manager, 5. Chief Information Security Officer (CISO), 6. Forensic Computer Analyst, 7. Information Security Analyst, 8. Penetration Tester, 9. IT Security Specialist, 10. Security Systems Administrator."
+        ]
+      } ,
+      {
+        "tag": "phishing",
+        "patterns": [
+            "What is phishing?"
+        ],
+        "responses": [
+            "Phishing is a cyber attack method where individuals are deceived into revealing sensitive information, such as passwords or financial details, by pretending to be a trustworthy entity through fraudulent emails, messages, or websites."
+        ]
+    },
+    {
+      "tag": "malware",
+      "patterns": [
+          "What is malware?"
+      ],
+      "responses": [
+          "Malware refers to malicious software designed to harm, disrupt, or gain unauthorized access to computer systems or data. It encompasses various forms such as viruses, ransomware, spyware, and trojans."
+      ]
+  },
+  {
+    "tag": "ddos",
+    "patterns": [
+        "What is a DDoS attack?"
+    ],
+    "responses": [
+        "A DDoS attack is a cyber attack where multiple compromised systems, often controlled by hackers, flood a target system or network with an overwhelming volume of traffic. The aim is to disrupt normal traffic flow, rendering the target unavailable to legitimate users."
+    ]
+},
+{
+  "tag": "mitm_attack",
+  "patterns": [
+      "What is a man-in-the-middle attack?"
+  ],
+  "responses": [
+      "A man-in-the-middle attack is a cybersecurity exploit where an attacker intercepts and potentially alters communication between two parties without their knowledge. The attacker may eavesdrop on or manipulate the data transmitted between the two parties, compromising the confidentiality and integrity of the communication."
+  ]
+},
+{
+"tag": "network_basics",
+"patterns": [
+    "What are the basic concepts of computer networks?"
+],
+"responses": [
+    "Computer networks involve interconnected devices allowing data exchange. Key concepts include protocols (rules governing data transmission), network topologies (physical or logical layout), IP addresses (unique identifiers for devices), and data transmission methods (wired or wireless)."
+]
+},
+{
+"tag": "network_protocols",
+"patterns": [
+  "What are network protocols?"
+],
+"responses": [
+  "Network protocols are sets of rules governing communication between devices on a network. They define how data is formatted, transmitted, received, and verified, ensuring seamless communication across diverse systems."
+]
+},
+{
+"tag": "ip_addresses",
+"patterns": [
+  "What are IP addresses?"
+],
+"responses": [
+  "IP addresses are unique numerical identifiers assigned to devices on a network. They enable devices to communicate with each other across the internet or local networks using the Internet Protocol (IP)."
+]
+},
+{
+"tag": "data_transmission",
+"patterns": [
+  "Explain data transmission methods in networks."
+],
+"responses": [
+  "Data transmission methods define how data is transferred between devices. They include wired methods like Ethernet and fiber optics, as well as wireless methods like Wi-Fi, Bluetooth, and cellular networks."
+]
+},
+{
+"tag": "subnetting",
+"patterns": [
+  "What is subnetting?"
+],
+"responses": [
+  "Subnetting is the process of dividing a larger network into smaller subnetworks, or subnets. It helps manage network traffic efficiently and enhances security by segregating portions of the network."
+]
+},
+{
+"tag": "routing_switching",
+"patterns": [
+  "Explain routing and switching in networks."
+],
+"responses": [
+  "Routing involves determining the best path for data packets to travel from source to destination in a network. Switching involves directing data within a network, forwarding packets to their intended destinations."
+]
+},
+{
+"tag": "nat",
+"patterns": [
+  "What is Network Address Translation (NAT)?"
+],
+"responses": [
+  "NAT is a technique that modifies IP addresses during packet transmission between networks. It allows multiple devices within a local network to share a single public IP address, enhancing security and conserving IP addresses."
+]
+},
+{
+"tag": "lan_wan",
+"patterns": [
+  "What's the difference between LAN and WAN?"
+],
+"responses": [
+  "LAN (Local Area Network) is a network confined to a small geographical area, like an office, while WAN (Wide Area Network) covers a larger geographical area, often connecting multiple LANs or extending across cities and countries."
+]
+},
+{
+"tag": "about_developer",
+"patterns": [
+  "Who developed you?"
+],
+"responses": [
+  "I was created by Avishkar, Jaydeep & saurabh as AIMLT mini project"
+]
+},
+{
+"tag": "cyber_bot_capabilities",
+"patterns": [
+  "What can you do?"
+],
+"responses": [
+  "Our cyber bot is equipped to handle various cybersecurity queries, including explaining concepts like phishing, malware, DDoS attacks, and more. It can also provide tips on network security, suggest preventive measures, and assist in understanding cybersecurity best practices."
+]
+}
+      ]}
