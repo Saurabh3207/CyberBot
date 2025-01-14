@@ -1,0 +1,18 @@
+# Ignore virtual environment directory
+Cyberbot/
+
+# Ignore other common files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.swp
+.DS_Store
+.idea/
+.vscode/
+.env

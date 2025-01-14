@@ -1,4 +1,3 @@
-# backend/app.py
 from flask import Flask, request, jsonify
 from nltk.stem import WordNetLemmatizer
 import numpy as np

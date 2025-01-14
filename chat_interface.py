@@ -46,6 +46,9 @@ def predict_class(sentence, model):
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
     return return_list
 
+# Context management
+context = {}
+
 # Example of interacting with the chatbot
 while True:
     user_input = input("You: ")
@@ -59,6 +62,9 @@ while True:
         for intent_data in intents['intents']:
             if intent_data['tag'] == intent_tag:
                 responses = intent_data['responses']
+                context_tag = intent_data.get('context_set')
+                if context_tag:
+                    context['user'] = context_tag
 
         print("Bot:", random.choice(responses))
     else:
